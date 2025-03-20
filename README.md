@@ -23,4 +23,4 @@ This project provides an [MCP](https://modelcontextprotocol.io/) server that all
 
 6.  **Using the extension:** Once integrated, you can start using your extension in Goose. Open the Goose chat interface and call your tool as needed. You can verify that Goose has picked up the tools from your custom extension by asking it "what tools do you have?"
 
-The tool ID is `searxng_search`.
+The tool ID is `searxng_search`. It accepts two parameters: `query` (the search query) and `max_results` (the maximum number of results to return, defaults to 30).
